@@ -1,0 +1,460 @@
+* {
+  box-sizing: border-box;
+}
+.search {
+  width: 100%;
+  height: 90px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+}
+.search img {
+  width: 200px;
+  height: 120px;
+  margin-top: 10px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.input-box {
+  width: 466px;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input {
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  color: rgb(211, 84, 0);
+  border: none;
+  margin-left: 14px;
+}
+.search-box input::placeholder {
+  color: rgb(211, 84, 0);
+  text-align: center;
+}
+.fa-search {
+  font-size: 1.3rem;
+  color: white;
+  background-color: rgb(211, 84, 0);
+  text-align: center;
+  padding: 15.5px;
+  border-radius: 0px 30px 30px 0px;
+  transition: all 0.5s ease;
+}
+.fa-search:hover {
+  background-color: orange;
+}
+.fa-user-circle {
+  color: orange;
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.search-box p {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.log {
+  padding-right: 20px;
+  border-right: 2.3px solid orange;
+}
+.log a {
+  text-decoration: none;
+  color: orange;
+  transition: all 0.5s ease;
+}
+.log a:hover {
+  color: rgb(211, 84, 0);
+}
+
+.re {
+  margin-left: 20px;
+}
+.re a {
+  text-decoration: none;
+  color: orange;
+  transition: all 0.5s ease;
+}
+.re a:hover {
+  color: rgb(211, 84, 0);
+}
+
+/* This is the end of search. */
+
+/* This is the start of nav. */
+
+.nav {
+  width: 100%;
+  height: 60px;
+  background-color: #ffff;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.2);
+
+  margin-top: 90px;
+  position: fixed;
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav .nav-box {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 150px;
+}
+.nav .nav-box li {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.nav .nav-box li a {
+  text-decoration: none;
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orange;
+  transition: all ease 0.5s;
+}
+.nav .nav-box li a:hover {
+  color: rgb(211, 84, 0);
+}
+.nav .nav-box .cate {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orange;
+  position: relative;
+}
+
+.cate .cate-box {
+  width: 150px;
+  height: 400px;
+  background-color: rgb(248, 237, 223);
+  position: absolute;
+  display: none;
+}
+.cate .cate-box li {
+  display: block;
+}
+
+.cate:hover .cate-box {
+  display: block;
+}
+
+.foracc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-user-circle {
+  margin-left: 600px;
+}
+.foracc .acc-container .acc {
+  text-decoration: none;
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orange;
+  margin-right: 90px;
+
+  /* transition: all ease 0.5s; */
+}
+
+.acc .acc-box {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(248, 237, 223);
+  position: absolute;
+  display: none;
+
+  /* margin-right: 100px; */
+}
+.acc .acc-box li {
+  display: block;
+  margin-right: 50px;
+}
+.acc:hover .acc-box {
+  display: block;
+}
+.per {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-user {
+  margin-right: 10px;
+}
+
+/* This is the end of nav. */
+
+/* This is the start of home. */
+
+.home-box {
+  position: relative;
+}
+.home-box .bg {
+  width: 100%;
+  height: 600px;
+  margin-top: 150px;
+}
+
+.home-text {
+  position: absolute;
+  top: 0;
+}
+.text-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+.text-box img {
+  width: 150px;
+  height: 200px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.text {
+  width: 570px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text p {
+  font-size: 1.3rem;
+  color: rgb(139, 58, 4);
+  font-weight: 600;
+  font-family: "Crimson Pro", serif;
+  padding-left: 10px;
+}
+.text .author {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+/* This is the end of home. */
+
+/* This is the start of newreleases. */
+
+.new-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(236, 235, 235);
+  padding-bottom: 40px;
+}
+
+.new-box h1 {
+  font-family: "Crimson Pro", serif;
+  width: 250px;
+  color: rgb(211, 84, 0);
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(211, 84, 0);
+
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.book1 {
+  width: 850px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+
+  transition: box-shadow 0.5s ease;
+}
+
+/* .new-box hr{
+      width: 900px;
+      height: 1px;
+      
+  } */
+.book1:hover {
+  box-shadow: 0px 0px 5px 0px rgba(238, 89, 3, 0.7);
+}
+.book1 img {
+  width: 150px;
+  height: 200px;
+  margin-right: 50px;
+}
+.book1-text {
+  font-family: "Crimson Pro", serif;
+}
+.book1-text span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.book1-text .book {
+  border-right: 1.5px solid black;
+  padding: 10px 20px 10px 0px;
+  margin-right: 20px;
+}
+.book1-text p {
+  margin-top: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.book1-text a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 6px;
+  transition: all 0.3s ease;
+}
+.book1-text a:hover {
+  border-bottom: 1.5px solid rgb(211, 84, 0);
+}
+
+.book2 {
+  width: 850px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  margin-bottom: 30px;
+
+  transition: all 0.5s ease;
+}
+.book2:hover {
+  box-shadow: 0px 0px 5px 0px rgba(238, 89, 3, 0.7);
+}
+.book2 img {
+  width: 150px;
+  height: 200px;
+  margin-right: 50px;
+}
+.book2-text {
+  font-family: "Crimson Pro", serif;
+  margin-right: 360px;
+}
+.book2-text span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.book2-text .book {
+  border-right: 1.5px solid black;
+  padding: 10px 20px 10px 0px;
+  margin-right: 20px;
+}
+.book2-text p {
+  margin-top: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.book2-text a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 6px;
+  transition: all 0.3s ease;
+}
+.book2-text a:hover {
+  border-bottom: 1.5px solid rgb(211, 84, 0);
+}
+
+/* This is the end of recommanded. */
+
+/* This is the start of con&pay. */
+
+.conandpay {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(204, 190, 180);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(87, 37, 4);
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.contact p {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  color: rgb(87, 37, 4);
+  font-weight: 600;
+}
+.fa-envelope {
+  margin-right: 10px;
+  border-right: 1px solid rgb(87, 37, 4);
+  padding-right: 10px;
+}
+.contact p a {
+  text-decoration: none;
+  color: rgb(87, 37, 4);
+}
+.contact p a:hover {
+  border-bottom: 2px solid rgb(87, 37, 4);
+}
+
+.payment h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(87, 37, 4);
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.fa-cc-mastercard {
+  font-size: 2rem;
+  color: rgb(87, 37, 4);
+  font-weight: 600;
+  margin-right: 20px;
+}
+.fa-cc-visa {
+  font-size: 2rem;
+  color: rgb(87, 37, 4);
+  font-weight: 600;
+}
+
+/* This is the start of footer. */
+
+.footer {
+  width: 100%;
+  height: 55px;
+  background-color: rgb(247, 164, 104);
+  /* margin-top: 30px; */
+}
+.footbox {
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: rgb(87, 37, 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  line-height: 20px;
+  padding-top: 6px;
+}

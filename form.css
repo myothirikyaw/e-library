@@ -1,0 +1,144 @@
+body {
+  background-image: url("img/fbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  width: 400px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 80px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.fortext {
+  width: 400px;
+  height: 200px;
+  /* background-color: rgba(36, 64, 127, 0.08); */
+  border-radius: 10px 10px 0px 0px;
+}
+.fortext img {
+  width: 120px;
+  height: 80px;
+  margin-right: 300px;
+  margin-top: 20px;
+  opacity: 1;
+}
+.fortext h1 {
+  font-family: "Concert One", cursive;
+  color: rgb(63, 29, 2);
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.fortext h2 {
+  font-family: "Concert One", cursive;
+  color: rgb(238, 110, 5);
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.fortext p {
+  font-family: "Patrick Hand", cursive;
+  color: rgb(128, 126, 125);
+  font-size: 1.1rem;
+}
+.forsignin {
+  height: 400px;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 0px 0px 10px 10px;
+}
+.forsignin h1 {
+  /* font-family: "Gluten", cursive;
+  font-family: "Mitr", sans-serif; */
+  font-family: "Crimson Pro", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(136, 66, 1, 0.8);
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.forsignin a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.fa-user-circle {
+  color: white;
+  background-color: rgba(136, 66, 1, 0.8);
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.fa-unlock-alt {
+  color: white;
+  background-color: rgba(136, 66, 1, 0.8);
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.forsignin input {
+  border: none;
+  outline: 0;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 23px;
+  color: rgba(136, 66, 1, 0.8);
+  box-shadow: 0px 1px 5px 0px rgba(170, 84, 4, 0.9);
+}
+input::placeholder {
+  color: rgba(136, 66, 1, 0.8);
+}
+.forsignin .submit {
+  background-color: rgb(253, 253, 253);
+  color: rgba(136, 66, 1, 0.8);
+  box-shadow: 0px 1px 5px 0px rgba(170, 84, 4, 0.9);
+}
+.forsignin input[type="submit"] {
+  font-family: "Gluten", cursive;
+  font-weight: 600;
+}
+.forsignin .submit:hover {
+  color: #ffff;
+  background-color: rgba(1, 109, 136, 0.8);
+  transition: all 0.3s ease;
+}
+.forsignin p {
+  color: rgb(255, 141, 75);
+  margin-bottom: 25px;
+}
+.forsignin .fb {
+  font-family: "Gluten", cursive;
+  color: rgba(136, 66, 1, 0.8);
+  background-color: #ffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 23px;
+  box-shadow: 0px 1px 5px 0px rgba(170, 84, 4, 0.9);
+}
+.fa-facebook-f {
+  color: rgb(253, 253, 253);
+  background-color: rgba(136, 66, 1, 0.8);
+  margin-right: 10px;
+  padding: 5px 8px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.forsignin .fb:hover {
+  background: rgba(1, 109, 136, 0.8);
+  color: rgb(253, 253, 253);
+  transition: all 0.3s ease;
+}
+.forsignin .fb:hover .fa-facebook-f {
+  color: rgba(1, 109, 136, 0.8);
+  background-color: #ffff;
+  transition: all 0.3s ease;
+}

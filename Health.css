@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+.search {
+  width: 100%;
+  height: 90px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+}
+.search img {
+  width: 200px;
+  height: 120px;
+  margin-top: 10px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.input-box {
+  width: 466px;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input {
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  color: rgb(211, 84, 0);
+  border: none;
+  margin-left: 14px;
+}
+.search-box input::placeholder {
+  color: rgb(211, 84, 0);
+  text-align: center;
+}
+.fa-search {
+  font-size: 1.3rem;
+  color: white;
+  background-color: rgb(211, 84, 0);
+  text-align: center;
+  padding: 15.5px;
+  border-radius: 0px 30px 30px 0px;
+  transition: all 0.5s ease;
+}
+.fa-search:hover {
+  background-color: orange;
+}
+.fa-user-circle {
+  color: orange;
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.search-box p {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orange;
+}
+.log {
+  padding-right: 20px;
+  border-right: 2.3px solid orange;
+  transition: all 0.5s ease;
+}
+.log:hover {
+  color: rgb(211, 84, 0);
+}
+
+.re {
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+.re:hover {
+  color: rgb(211, 84, 0);
+}
+
+/* This is the end of search. */
+
+/* This is the start of nav. */
+
+.nav {
+  width: 100%;
+  height: 60px;
+  background-color: #ffff;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.2);
+
+  margin-top: 90px;
+  position: fixed;
+  z-index: 2;
+}
+.nav .nav-box {
+  display: flex;
+}
+.nav .nav-box li {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.nav .nav-box li a {
+  text-decoration: none;
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orange;
+  transition: all ease 0.5s;
+}
+.nav .nav-box li a:hover {
+  color: rgb(211, 84, 0);
+}
+.nav .nav-box .cate {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: orange;
+  position: relative;
+}
+
+.cate .cate-box {
+  width: 150px;
+  height: 400px;
+  background-color: rgb(248, 237, 223);
+  position: absolute;
+  display: none;
+}
+.cate .cate-box li {
+  display: block;
+}
+
+.cate:hover .cate-box {
+  display: block;
+}
+
+/* This is the end of nav. */
+
+/* This is the start of Health. */
+
+.health-box {
+  padding-top: 150px;
+}
+
+.health-box h1 {
+  font-family: "Crimson Pro", serif;
+  width: 150px;
+  color: rgb(211, 84, 0);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(211, 84, 0);
+
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box1 {
+  width: 350px;
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box1 img {
+  width: 150px;
+  height: 175px;
+  margin-bottom: 30px;
+}
+.box1 a {
+  font-family: "Crimson Pro", serif;
+  text-decoration: none;
+  color: #000;
+  width: 80%;
+
+  transition: all ease 0.3s;
+}
+.box1 p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 25px;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  margin-bottom: 10px;
+}
+
+.box1 a:hover {
+  color: rgb(211, 84, 0);
+}
+.box1 span {
+  font-family: "Crimson Pro", serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(87, 37, 4);
+}
+
+/* This is the end of health. */
+
+/* This is the start of footer. */
+
+.next {
+  width: 100%;
+  /* height: 70px; */
+  /* backgrsound-color: rgb(247, 164, 104); */
+}
+.next .nextbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nextbox li {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  background-color: rgb(250, 196, 157);
+
+  text-align: center;
+  line-height: 30px;
+  /* border-radius: 50%; */
+
+  transition: all 0.5s;
+}
+.nextbox li:hover {
+  background-color: rgb(139, 62, 6);
+}
+.nextbox li a {
+  font-family: "Crimson Pro", serif;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(139, 62, 6);
+
+  /* padding: 8px 15px; */
+  /* border-radius: 50%; */
+}
+.nextbox li:hover a {
+  color: rgb(250, 196, 157);
+  transition: all 0.5s;
+}
+
+/* This is the end of next. */
+
+/* This is  the start of footer. */
+
+.footer {
+  width: 100%;
+  height: 55px;
+  background-color: rgb(247, 164, 104);
+  margin-top: 30px;
+}
+.footbox {
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: rgb(87, 37, 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  line-height: 20px;
+  padding-top: 6px;
+}

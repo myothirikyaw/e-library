@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Crimson Pro", serif;
+}
+.account-container h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(65, 27, 2);
+}
+.personal li {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(250, 212, 196);
+  margin-top: 10px;
+}
+.personal li span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(88, 37, 2);
+}

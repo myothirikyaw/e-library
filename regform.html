@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="regform.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Crimson+Pro:wght@300&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="form">
+        <div class="form-container">
+          <img src="img/logo.png" alt="logo" />
+          <h1>Membership Form</h1>
+
+          <h2>Your Name</h2>
+          <input
+            type="text"
+            name="firstName"
+            class="firstName"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="lastName"
+            class="lastName"
+            placeholder="LastName"
+          />
+
+          <h2>Your Email</h2>
+          <input
+            type="email"
+            name="email"
+            class="email"
+            placeholder="example@example.com"
+          />
+
+          <h2>Phone Number</h2>
+          <select name="areacode" class="areacode">
+            <option selected disabled>Area code</option>
+            <option value="au">Australia(+61)</option>
+            <option value="thai">Thailand(+66)</option>
+            <option value="malay">Malaysia(+60)</option>
+            <option value="myan">Myanmar(+95)</option>
+            <option value="ny">New York(+212)</option>
+            <option value="phili">Philippines(+63)</option>
+            <option value="viet">Vietnam(+84)</option>
+          </select>
+          <input
+            type="text"
+            name="phno"
+            class="phno"
+            placeholder="Phone Number"
+            minlength="9"
+            min="0"
+            required
+          />
+
+          <h2>Birth Date</h2>
+          <input
+            type="text"
+            name="month"
+            class="month"
+            placeholder="Month(January)"
+          />
+          <input
+            type="number"
+            name="day"
+            class="day"
+            placeholder="Day"
+            min="1"
+            max="31"
+          />
+          <input
+            type="number"
+            name="year"
+            class="year"
+            placeholder="Year"
+            maxlength="4"
+            minlength="4"
+            min="1900"
+          />
+          <h2>Membership Options</h2>
+          <div class="mopt">
+            <div class="box1">
+              <input type="checkbox" name="correct" class="correct" required />
+              <h3>Monthly Fee</h3>
+              <ul>
+                <li>per month $00.00</li>
+              </ul>
+              <p>Enter Your First Month</p>
+              <input
+                type="text"
+                name="startmon"
+                class="startmon"
+                placeholder="Enter Start Month"
+                required
+              />
+
+              <p>Duration</p>
+              <input
+                type="number"
+                name="monfeenum"
+                class="monfeenum"
+                max="12"
+                min="1"
+                placeholder="duration"
+                required
+              />
+            </div>
+
+            <div class="box1">
+              <input type="checkbox" name="correct" class="correct" required />
+              <h3>Annual Fee</h3>
+              <ul>
+                <li>per year $00.00</li>
+              </ul>
+              <p>Enter Your First Year</p>
+              <input
+                type="text"
+                name="startmon"
+                class="startmon"
+                placeholder="Enter Start Year"
+                required
+              />
+
+              <p>Duration</p>
+              <input
+                type="number"
+                name="monfeenum"
+                class="monfeenum"
+                max="12"
+                min="1"
+                placeholder="duration"
+                required
+              />
+            </div>
+          </div>
+
+          <h2>Payment Methods</h2>
+          <div class="paymethod">
+            <input type="radio" name="deborcre" class="pay" />
+            <label>Debit or Credit Card</label><br />
+            <input type="radio" name="paypal" class="pay" />
+            <label>PayPal</label><br />
+            <input type="radio" name="visa" class="pay" />
+            <label>VISA</label>
+          </div>
+
+          <a href="index1.html">Submit</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

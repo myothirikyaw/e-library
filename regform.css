@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Crimson Pro", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 550px;
+  background-color: rgb(253, 241, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-left: 30px;
+  padding-bottom: 50px;
+  box-shadow: 0px 1px 5px 0px rgba(170, 84, 4, 0.5);
+}
+
+img {
+  width: 120px;
+  height: 80px;
+}
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(87, 37, 4);
+  margin-bottom: 30px;
+  /* border-bottom: 2px solid rgb(87, 37, 4); */
+  margin-left: 140px;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(146, 60, 3);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+input {
+  /* width: 60px; */
+  height: 35px;
+  outline: none;
+  border: 1px solid rgb(87, 37, 4);
+  color: rgb(201, 82, 3);
+  background-color: rgb(250, 201, 169);
+  border-radius: 20px;
+
+  text-align: center;
+}
+input::placeholder {
+  color: rgb(201, 82, 3);
+}
+
+.firstName {
+  width: 200px;
+  margin-right: 30px;
+}
+.lastName {
+  width: 200px;
+}
+.email {
+  width: 300px;
+}
+.areacode {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(255, 200, 163);
+  color: rgb(201, 82, 3);
+  margin-right: 30px;
+}
+.phno {
+  width: 200px;
+  margin-right: 30px;
+}
+.month {
+  margin-right: 20px;
+}
+.day {
+  margin-right: 20px;
+}
+
+.mopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 210px;
+  height: 300px;
+  background-color: rgb(247, 221, 204);
+  margin-right: 30px;
+  border: 1px solid rgb(146, 60, 3);
+  padding-left: 20px;
+}
+.box1 h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(194, 79, 3);
+  margin-bottom: 20px;
+  margin-left: 40px;
+  /* margin-top: 20px; */
+}
+.box1 ul {
+  margin-bottom: 30px;
+}
+.box1 ul li {
+  list-style-type: disc;
+  margin-left: 16px;
+}
+.box1 p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(228, 92, 1);
+  margin-bottom: 12px;
+}
+.startmon {
+  margin-bottom: 30px;
+}
+.monfeenum {
+  width: 120px;
+}
+
+.paymethod {
+  margin-bottom: 50px;
+}
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(190, 78, 3);
+}
+.pay {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(87, 37, 4);
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgb(250, 201, 169);
+  border: 1px solid rgb(87, 37, 4);
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-left: 190px;
+
+  transition: all 0.5s;
+}
+a:hover {
+  background-color: transparent;
+}
+
+/* This is  the start of footer. */

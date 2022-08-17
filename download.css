@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+}
+.search{
+    width: 100%;
+    height: 90px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.search img{
+    width: 200px;
+    height: 120px;
+    margin-top: 10px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.input-box{
+    width: 466px;
+    height: 50px; 
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box input{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    color:rgb(211, 84, 0);
+    border: none;
+    margin-left: 14px;
+}
+.search-box input::placeholder{
+    color:rgb(211, 84, 0);
+    text-align: center;
+}
+.fa-search{
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(211, 84, 0);
+    text-align: center;
+    padding: 15.5px;
+    border-radius: 0px 30px 30px 0px;
+    transition: all 0.5s ease;
+}
+.fa-search:hover{
+    background-color: orange;
+}
+.fa-user-circle{
+    color: orange;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.search-box p{
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: orange;
+}
+.log{
+    padding-right: 20px;
+    border-right: 2.3px solid orange;
+    transition: all 0.5s ease;
+}
+.log:hover{
+    color:rgb(211, 84, 0);
+}
+
+.re{
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.re:hover{
+    color:rgb(211, 84, 0);
+}
+
+/* This is the end of search. */
+
+/* This is the start of nav. */
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.2);
+
+    margin-top: 90px;
+    position: fixed;
+    z-index: 2;
+}
+.nav .nav-box{
+    display: flex;
+}
+.nav .nav-box li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.nav .nav-box li a{
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: orange;
+    transition: all ease 0.5s;
+}
+.nav .nav-box li a:hover{
+    color:rgb(211, 84, 0);
+}
+.nav .nav-box .cate{
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: orange;
+    position: relative;
+}
+.cate .cate-box{
+    width: 150px;
+    height: 400px;
+    background-color: rgb(248, 237, 223);
+    position: absolute;
+    display: none;
+}
+.cate .cate-box li{
+    display: block;
+}
+
+.cate:hover .cate-box{
+    display: block;
+}
+
+/* This is the end of nav. */
+
+/* This is the start of download. */
+
+.dload{
+    padding-top: 150px;
+    background-color: rgb(236, 235, 235);
+}
+
+.d-container h1{
+    font-family: 'Crimson Pro', serif;
+    width: 150px;
+    color:rgb(211, 84, 0);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom:  2px solid rgb(211, 84, 0);
+
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.d-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.d-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.book1{
+    width: 680px;
+    height: 260px;
+    background-color: #ffff;
+    
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.book1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book1-container img{
+    width: 150px;
+    height: 200px;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+.book1-text{
+    font-family: 'Crimson Pro', serif;
+
+}
+.book1-text span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.book1-text .book{
+    border-right: 1.5px solid black;
+    padding: 10px 20px 10px 0px;
+    margin-right: 20px;
+}
+.book1-text p{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.book1-text a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 6px;
+    transition: all  0.3s ease;
+    line-height: 30px;
+}
+.book1-text a:hover{
+    border-bottom: 1.5px solid rgb(211, 84, 0);
+}
+ .fa-star{
+    color:rgb(185, 76, 3);
+    margin-top: 10px;
+    padding-left: 600px;
+    margin-right: 20px;
+}
+.fa-file-download{
+    color:rgb(211, 84, 0);
+    font-size: 1.2rem;
+    margin-top: 10px;
+    /* padding-left: 640px; */
+}
+
+.book3-text{
+    font-family: 'Crimson Pro', serif;
+    margin-right: 300px;
+}
+.book3-text span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.book3-text .book{
+    border-right: 1.5px solid black;
+    padding: 10px 20px 10px 0px;
+    margin-right: 20px;
+}
+.book3-text p{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.book3-text a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 6px;
+    transition: all  0.3s ease;
+    line-height: 30px;
+}
+.book3-text a:hover{
+    border-bottom: 1.5px solid rgb(211, 84, 0);
+}
+
+
+.book4-text{
+    font-family: 'Crimson Pro', serif;
+    margin-right: 100px;
+}
+.book4-text span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.book4-text .book{
+    border-right: 1.5px solid black;
+    padding: 10px 20px 10px 0px;
+    margin-right: 20px;
+}
+.book4-text p{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.book4-text a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 6px;
+    transition: all  0.3s ease;
+    line-height: 30px;
+}
+.book4-text a:hover{
+    border-bottom: 1.5px solid rgb(211, 84, 0);
+}
